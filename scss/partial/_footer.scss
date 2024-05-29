@@ -1,0 +1,65 @@
+footer {
+  padding: 5em 0;
+
+  .content {
+    color: #888;
+
+    h6 {
+      font-size: 1.4em;
+      margin-bottom: 2em;
+    }
+
+    a {
+      font-size: 1.4em;
+      color: $green;
+      position: relative;
+      padding: 0 10px;
+
+      &:after {
+        content: "|";
+        color: #888;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+
+      &:last-child {
+        &:after {
+          content: unset;
+        }
+      }
+    }
+  }
+
+  .social {
+    margin-bottom: 2em;
+
+    ul {
+      li {
+        a {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          background-color: $main;
+          display: flex;
+          color: #fff;
+          align-items: center;
+          justify-content: center;
+          margin: 0 10px;
+          padding: 10px;
+          transition: all 0.3s ease-in-out;
+
+          &:hover {
+            background-color: $green;
+          }
+        }
+
+        &:last-child {
+          a {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+}

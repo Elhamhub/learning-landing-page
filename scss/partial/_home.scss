@@ -1,0 +1,550 @@
+.home {
+  padding: 0 0;
+  background: linear-gradient(180deg, rgb(19 95 155 / 50%) 0%, rgb(25 96 153 / 50%) 100%), url(https://mfe-test.netlify.app/assets/images/home.png) no-repeat;
+  background-size: cover !important;
+  // background: transparent  0% 0% no-repeat padding-box;
+  background-position: center;
+
+  // transparent linear-gradient(179deg, #04446C 0%, #04bc8c 100%) 0% 0% no-repeat padding-box;
+  &.homeCovid {
+    background: linear-gradient(180deg, rgb(19 95 155 / 50%) 0%, rgb(25 96 153 / 50%) 100%), url(https://files.elhamsol.com/media/assets/COVID-19%20Critical%20Care%20Crash%20Course/medical_banner2.jpg) no-repeat;
+  }
+
+  .content {
+    max-width: 790px;
+    color: #fff;
+    padding: 14em 0;
+
+    h1 {
+      font-size: 4.6em;
+      color: #fff !important;
+    }
+
+    p {
+      font-size: 2.1em;
+      font-weight: 500;
+      line-height: 26px;
+      margin-bottom: 2.6em;
+    }
+
+    a {
+      display: inline-block;
+      border: 1px solid #fff;
+      font-size: 1.4em;
+      padding: 10px 15px;
+      position: relative;
+      transition: all 0.3s ease-in-out;
+
+      svg {
+        display: inline-block;
+        transition: all 0.3s ease-in-out;
+        margin-inline-start: 8px;
+      }
+
+      &:after {
+        content: "";
+        position: absolute;
+        width: 120%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: $green;
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+
+      }
+
+      &:hover {
+        background-color: rgba($green, 0.3);
+        border-color: transparent;
+
+        &:after {
+          position: 0;
+          width: 2px;
+          opacity: 1;
+        }
+
+        svg {
+          margin-inline-start: 15px;
+
+        }
+      }
+    }
+  }
+}
+
+//slider
+.slider {
+  img {
+    object-fit: contain;
+    display: block;
+    margin: auto;
+  }
+
+  .slider-content {
+    max-width: 430px;
+    padding: 2em 1.5em;
+    margin-bottom: 40px;
+
+    span {
+      color: $green;
+      font-size: 1.4em;
+      font-weight: 600;
+      margin-bottom: 5px;
+      display: block;
+    }
+
+    h3 {
+      color: $main;
+      font-size: 2.4em;
+      font-weight: 600;
+      line-height: 33px;
+      position: relative;
+      margin-bottom: 10px;
+
+      &:after {
+        content: "";
+        position: absolute;
+        left: -15px;
+        height: 21px;
+        width: 2px;
+        background-color: $green;
+        top: 5px;
+      }
+    }
+
+    p {
+      font-size: 1.6em;
+      font-weight: 500;
+      color: #ADADAD;
+      margin: 4px auto 15px;
+    }
+
+    a {
+      color: $green;
+      font-weight: 600;
+      font-size: 1.8em;
+      position: relative;
+
+      svg {
+        display: inline-block;
+        transition: all 0.3s ease-in-out;
+        margin-inline-start: 8px;
+      }
+
+      &:after {
+        content: "";
+        position: absolute;
+        width: 120%;
+        height: 100%;
+        top: 0;
+        left: -10px;
+        background-color: $green;
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+
+      }
+
+      &:hover {
+        &:after {
+          position: 0;
+          width: 2px;
+          opacity: 1;
+        }
+
+        svg {
+          margin-inline-start: 15px;
+
+        }
+      }
+    }
+  }
+
+  .swiper {
+    // margin: 0 85px;
+  }
+
+  .swiper-pagination-bullets {
+    bottom: 0;
+
+    .swiper-pagination-bullet {
+
+      width: 10px;
+      height: 10px;
+      background: $main;
+      opacity: .25;
+      margin: 0 5px;
+
+      &.swiper-pagination-bullet-active {
+        opacity: 1;
+      }
+    }
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 85px;
+    height: 215px;
+    background: rgba($green, .1);
+    margin: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 0;
+    left: auto;
+    overflow: hidden;
+    color: $green;
+
+    &.swiper-button-prev {
+      left: 0;
+      right: auto;
+
+      &:hover {
+        &::after {
+          display: block;
+          animation-name: arrowLeft;
+          animation-duration: .7s;
+          animation-iteration-count: 1;
+          animation-timing-function: ease-out;
+        }
+      }
+
+      &::before {
+        right: 0;
+        left: auto;
+      }
+    }
+
+
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      bottom: 0;
+      left: 0;
+      background-color: $green;
+      transition: all 0.2s ease-in-out;
+      opacity: 0;
+    }
+
+    &:hover {
+      &::after {
+        display: block;
+        animation-name: arrowRight;
+        animation-duration: .7s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-out;
+      }
+
+      &::before {
+        width: 2px;
+        opacity: 1;
+      }
+    }
+  }
+
+  .anim {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: $green;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .swiper-slide-active {
+    .anim {
+      padding: 0;
+      animation-name: anim;
+      animation-duration: .7s;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-out;
+    }
+  }
+}
+
+@keyframes anim {
+  0% {
+    width: 0;
+    opacity: 0;
+    left: 0;
+    right: auto;
+  }
+
+  50% {
+    width: 100%;
+    opacity: 1;
+    left: 0;
+    right: auto;
+  }
+
+  75% {
+    width: 100%;
+    opacity: 1;
+    left: 0;
+    right: auto;
+  }
+
+  100% {
+    width: 0;
+    opacity: 0;
+    left: 100%;
+    right: auto;
+  }
+
+}
+
+@keyframes arrowRight {
+  0% {
+    opacity: 1;
+    transform: translateX(0px) scale(1);
+  }
+
+  25% {
+    opacity: 0.8;
+    transform: translateX(50px) scale(1);
+  }
+
+  26% {
+    opacity: 0;
+    transform: translateX(-50px) scale(0.8);
+  }
+
+  55% {
+    opacity: 1;
+    transform: translateX(0px) scale(1);
+  }
+}
+
+@keyframes arrowLeft {
+  0% {
+    opacity: 1;
+    transform: translateX(0px) scale(1);
+  }
+
+  25% {
+    opacity: 0.8;
+    transform: translateX(-50px) scale(1);
+  }
+
+  26% {
+    opacity: 0;
+    transform: translateX(50px) scale(0.8);
+  }
+
+  55% {
+    opacity: 1;
+    transform: translateX(0px) scale(1);
+  }
+}
+
+.widget {
+  max-width: 230px;
+  text-align: center;
+  min-height: 33em;
+  margin: 10px auto;
+
+  .icon {
+    width: 9em;
+    height: 9em;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    transition: all 0.3s ease-in-out;
+    border: 1px;
+    position: relative;
+    z-index: 9;
+    background: #ffffff;
+    padding: 2em;
+
+    img {
+      transition: all 0.3s ease-in-out;
+      width: 100%;
+    }
+  }
+
+  .content {
+    padding: 4em 1.5em 1.5em;
+    border: 1px solid transparent;
+    transition: padding 0.3s ease-in-out;
+    position: relative;
+    top: -45px;
+
+
+    &:after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      bottom: 0;
+      background-color: $green;
+      transition: all 0.3s ease-in-out;
+      opacity: 0;
+      left: 0;
+
+    }
+
+    h5 {
+      color: $main;
+      font-weight: 600;
+      font-size: 2.4em;
+    }
+
+    p {
+      font-size: 1.4em;
+      color: #888888;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.3s ease-in-out;
+      margin-top: 5px;
+      line-height: 20px;
+    }
+  }
+
+  &:hover {
+    .icon {
+
+      border: 1px solid #04bc8c;
+
+      img {
+        transform: rotateY(180deg);
+      }
+    }
+
+    .content {
+      padding: 5em 1.5em 1.5em;
+      background: #04bc8c0d;
+      border: 1px solid #04bc8c;
+      border-radius: 8px;
+
+      p {
+        transform: translateY(0);
+        opacity: 1;
+      }
+
+      &:after {
+        height: 0px;
+        opacity: 1;
+      }
+    }
+  }
+}
+
+
+.border-1 {
+  border-right: 1px solid $main;
+}
+
+.widget_2 {
+  display: flex;
+  max-width: 250px;
+  margin: auto;
+  position: relative;
+  padding-bottom: 10px;
+
+  .icon {
+    width: 56px;
+
+    svg {
+
+      path,
+      line,
+      rect,
+      circle {
+        transition: all 0.3s ease-in-out;
+      }
+    }
+  }
+
+  .content {
+    width: calc(100% - 56px);
+    margin-inline-start: 15px;
+
+    h5 {
+      color: $green;
+      transition: all 0.3s ease-in-out;
+      font-size: 3.8em;
+      font-weight: 600;
+    }
+
+    p {
+      color: $main;
+      transition: all 0.3s ease-in-out;
+      font-size: 1.4em;
+      font-weight: 600;
+    }
+  }
+
+
+
+  &:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background-color: $green;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+
+  }
+
+  &:hover {
+    .icon {
+      svg {
+
+        path,
+        line,
+        rect,
+        circle {
+
+          stroke: $green;
+        }
+      }
+    }
+
+    .content {
+      h5 {
+        color: $main;
+      }
+    }
+
+    &:after {
+      height: 2px;
+      opacity: 1;
+    }
+  }
+}
+
+
+
+// partner
+.partners {
+  max-width: 1200px;
+  margin: auto;
+
+  .partner {
+    min-width: 200px;
+    margin: auto 20px;
+
+    img {
+      max-width: 100%;
+      display: block;
+      margin: 20px auto;
+      filter: grayscale(5);
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        filter: unset;
+      }
+    }
+  }
+}
