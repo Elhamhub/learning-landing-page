@@ -1,800 +1,517 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Haj Learning</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-  </head>
-  <body>
-    <div class="learningLandingPage">
-      <div class="navbar-wrapper py-3" id="header">
-        <div class="container">
-          <div class="d-lg-flex align-items-center justify-content-between">
-            <div class="">
-              <div class="logo">
-                <a>
-                  <img
-                    src="https://mfe-test.netlify.app/assets/images/logo_color.jpg"
-                    alt="CPD"
-                    class="colored"
-                  />
-                  <img
-                    src="https://mfe-test.netlify.app/assets/images/logo_white.png"
-                    alt="CPD"
-                    class="white"
-                  />
-                </a>
-              </div>
-            </div>
-            <div class="">
-              <div class="nav-menu">
-                <nav class="navbar navbar-expand-lg">
-                  <div class="p-0 w-100">
-                    <button class="navbar-toggler ms-auto">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav">
-                        <li class="nav-item">
-                          <a
-                            class="nav-link"
-                            href="https://learning.scfhs.org.sa/landing/covid19"
-                            target="_blank"
-                            >COVID -19</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link"
-                            href="https://learning.scfhs.org.sa/home/tracks"
-                            target="_blank"
-                            >Browse Tracks</a
-                          >
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </nav>
-              </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Haj Learning</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <div class="learningLandingPage">
+    <div class="navbar-wrapper py-3" id="header">
+      <div class="container">
+        <div class="d-lg-flex align-items-center justify-content-between">
+          <div class="">
+            <div class="logo">
+              <a>
+                <img src="https://mfe-test.netlify.app/assets/images/logo_color.jpg" alt="CPD" class="colored" />
+                <img src="https://mfe-test.netlify.app/assets/images/logo_white.png" alt="CPD" class="white" />
+              </a>
             </div>
           </div>
-        </div>
-        <!-- /container -->
-      </div>
-
-      <section class="home">
-        <div class="container">
-          <div class="content">
-            <h1 class="mb-3">Join the Health Transformers!</h1>
-            <p>
-              Learn 100% online with high quality professional development
-              courses that helps you mitigate your way through your everyday
-              healthcare practice and effectively engage in the health
-              transformation journey 2030.
-            </p>
-            <a href="https://learning.scfhs.org.sa/auth/signup" target="_blank">
-              REGISTER
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16.798"
-                height="11.863"
-                viewBox="0 0 16.798 11.863"
-              >
-                <g
-                  id="Group_15"
-                  data-name="Group 15"
-                  transform="translate(-2996.861 -1199.07)"
-                >
-                  <path
-                    id="Stroke_3-4"
-                    data-name="Stroke 3-4"
-                    d="M3012.427,1202.6h-14.816"
-                    transform="translate(0 2.393)"
-                    fill="none"
-                    stroke="#fff"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
-                  />
-                  <path
-                    id="Path_42535"
-                    data-name="Path 42535"
-                    d="M3003.151,1200.131l4.057,4.059a1.148,1.148,0,0,1,0,1.624l-4.057,4.059"
-                    transform="translate(5.365 0)"
-                    fill="none"
-                    stroke="#fff"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
-                  />
-                </g>
-              </svg>
-            </a>
-            <a
-              href="https://learning.scfhs.org.sa/home/tracksp"
-              target="_blank"
-            >
-              Start Now
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16.798"
-                height="11.863"
-                viewBox="0 0 16.798 11.863"
-              >
-                <g
-                  id="Group_15"
-                  data-name="Group 15"
-                  transform="translate(-2996.861 -1199.07)"
-                >
-                  <path
-                    id="Stroke_3-4"
-                    data-name="Stroke 3-4"
-                    d="M3012.427,1202.6h-14.816"
-                    transform="translate(0 2.393)"
-                    fill="none"
-                    stroke="#fff"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
-                  />
-                  <path
-                    id="Path_42535"
-                    data-name="Path 42535"
-                    d="M3003.151,1200.131l4.057,4.059a1.148,1.148,0,0,1,0,1.624l-4.057,4.059"
-                    transform="translate(5.365 0)"
-                    fill="none"
-                    stroke="#fff"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
-                  />
-                </g>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <section class="s-p wow fadeInUp slider" data-wow-delay="0.2s">
-        <div class="container">
-          <h3 class="section-heading">Browse Courses</h3>
-          <!-- Slider main container -->
-          <div class="position-relative">
-            <div class="swiper">
-              <!-- Additional required wrapper -->
-              <main class="container my-5">
-                <div class="swiper-container">
-                  <div class="swiper-wrapper">
-                    <!-- Slide 1 -->
-                    <div class="swiper-slide">
-                      <div class="row">
-                        <span class="anim"></span>
-                        <div class="col-lg-6">
-                          <img
-                            src="https://axrocwa5fi5e.compat.objectstorage.me-jeddah-1.oraclecloud.com/elham-ksa-files/media/assets/NoneCustomer/Cover02.png"
-                            width="480"
-                            height="263"
-                            alt="img"
-                          />
-                        </div>
-                        <div class="col-lg-6 d-flex align-items-center">
-                          <div class="slider-content">
-                            <span>CPD: 4hrs</span>
-                            <h3>Patient Experience</h3>
-                            <p>
-                              Equip yourself with the essential knowledge and
-                              skills required for delivering exceptional
-                              patient-centered care in your daily practice
-                            </p>
-                            <a
-                              href="https://learning.scfhs.org.sa//home/tracks/details/4695"
-                              target="_blank"
-                              class="start-now"
-                              >
-                                                            Start Now
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="17.298"
-                                height="12.57"
-                                viewBox="0 0 17.298 12.57"
-                              >
-                                <g
-                                  id="Group_563"
-                                  data-name="Group 563"
-                                  transform="translate(-70 -2.586)"
-                                >
-                                  <path
-                                    id="Stroke_3-4"
-                                    data-name="Stroke 3-4"
-                                    d="M3012.431,1202.6h-14.82"
-                                    transform="translate(-2926.611 -1193.738)"
-                                    fill="none"
-                                    stroke="#1ec18b"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                  />
-                                  <path
-                                    id="Path_42535"
-                                    data-name="Path 42535"
-                                    d="M3003.151,1200.131l4.057,4.059a1.148,1.148,0,0,1,0,1.624l-4.057,4.059"
-                                    transform="translate(-2921.246 -1196.131)"
-                                    fill="none"
-                                    stroke="#1ec18b"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                  />
-                                </g>
-                              </svg>
-                              </a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- Slide 2 -->
-                    <div class="swiper-slide">
-                      <div class="row">
-                        <span class="anim"></span>
-                        <div class="col-lg-6">
-                          <img
-                            src="https://axrocwa5fi5e.compat.objectstorage.me-jeddah-1.oraclecloud.com/elham-ksa-files/media/assets/NoneCustomer/Cover01.png"
-                            width="480"
-                            height="263"
-                            alt="img"
-                          />
-                        </div>
-                        <div class="col-lg-6 d-flex align-items-center">
-                          <div class="slider-content">
-                            <span>CPD: 1hr</span>
-                            <h3>Empathy and Compassion in Healthcare</h3>
-                            <p>
-                              Learn the fundamental principles of empathy and
-                              compassion in healthcare, and equip yourself with
-                              the essential knowledge and skills to provide
-                              exceptional patient care. This will help you in
-                              fostering a supportive and compassionate
-                              healthcare environment.
-                            </p>
-                            <a
-                              href="https://learning.scfhs.org.sa//home/tracks/details/15791"
-                              target="_blank"
-                              class="start-now"
-                              >
-                                                            Start Now
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="17.298"
-                                height="12.57"
-                                viewBox="0 0 17.298 12.57"
-                              >
-                                <g
-                                  id="Group_563"
-                                  data-name="Group 563"
-                                  transform="translate(-70 -2.586)"
-                                >
-                                  <path
-                                    id="Stroke_3-4"
-                                    data-name="Stroke 3-4"
-                                    d="M3012.431,1202.6h-14.82"
-                                    transform="translate(-2926.611 -1193.738)"
-                                    fill="none"
-                                    stroke="#1ec18b"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                  />
-                                  <path
-                                    id="Path_42535"
-                                    data-name="Path 42535"
-                                    d="M3003.151,1200.131l4.057,4.059a1.148,1.148,0,0,1,0,1.624l-4.057,4.059"
-                                    transform="translate(-2921.246 -1196.131)"
-                                    fill="none"
-                                    stroke="#1ec18b"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                  />
-                                </g>
-                              </svg>
-                              </a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- Slide 3 -->
-                    <div class="swiper-slide">
-                      <div class="row">
-                        <span class="anim"></span>
-                        <div class="col-lg-6">
-                          <img
-                            src="https://axrocwa5fi5e.compat.objectstorage.me-jeddah-1.oraclecloud.com/elham-ksa-files/media/assets/NoneCustomer/Artboard_1.png"
-                            width="480"
-                            height="263"
-                            alt="img"
-                          />
-                        </div>
-                        <div class="col-lg-6 d-flex align-items-center">
-                          <div class="slider-content">
-                            <h3>World Patient Safety Day</h3>
-                            <p>
-                              In collaboration with The Saudi Patient Safety
-                              Center (SPSC), we are hosting these webinars to
-                              commemorate Patient Safety Day with the WHO theme
-                              of spread knowledge in the field of patient
-                              safety.
-                            </p>
-                            <a
-                              href="https://learning.scfhs.org.sa//home/tracks/details/15825"
-                              class="start-now"
-                              >
-                                                            Start Now
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="17.298"
-                                height="12.57"
-                                viewBox="0 0 17.298 12.57"
-                              >
-                                <g
-                                  id="Group_563"
-                                  data-name="Group 563"
-                                  transform="translate(-70 -2.586)"
-                                >
-                                  <path
-                                    id="Stroke_3-4"
-                                    data-name="Stroke 3-4"
-                                    d="M3012.431,1202.6h-14.82"
-                                    transform="translate(-2926.611 -1193.738)"
-                                    fill="none"
-                                    stroke="#1ec18b"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                  />
-                                  <path
-                                    id="Path_42535"
-                                    data-name="Path 42535"
-                                    d="M3003.151,1200.131l4.057,4.059a1.148,1.148,0,0,1,0,1.624l-4.057,4.059"
-                                    transform="translate(-2921.246 -1196.131)"
-                                    fill="none"
-                                    stroke="#1ec18b"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                  />
-                                </g>
-                              </svg>
-                              </a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- Slide 4 -->
-                    <div class="swiper-slide">
-                      <div class="row">
-                        <span class="anim"></span>
-                        <div class="col-lg-6">
-                          <img
-                            src="https://axrocwa5fi5e.compat.objectstorage.me-jeddah-1.oraclecloud.com/elham-ksa-files/media/assets/NoneCustomer/2vQcYBlA.png"
-                            width="480"
-                            height="263"
-                            alt="img"
-                          />
-                        </div>
-                        <div class="col-lg-6 d-flex align-items-center">
-                          <div class="slider-content">
-                            <span>CPD: 2hrs</span>
-                            <h3>
-                              Healthcare practitioners’ role against substance
-                              abuse
-                            </h3>
-                            <p>
-                              Learn how to equip yourself with the knowledge and
-                              skills necessary to address substance abuse and
-                              addiction in Saudi Arabia, and discover how to
-                              approach patients who may be experiencing
-                              substance abuse disorder in a professional and
-                              ethical way.
-                            </p>
-                            <a
-                              href="https://learning.scfhs.org.sa//home/tracks/details/15784"
-                              target="_blank"
-                              class="start-now"
-                              >
-                                                            Start Now
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="17.298"
-                                height="12.57"
-                                viewBox="0 0 17.298 12.57"
-                              >
-                                <g
-                                  id="Group_563"
-                                  data-name="Group 563"
-                                  transform="translate(-70 -2.586)"
-                                >
-                                  <path
-                                    id="Stroke_3-4"
-                                    data-name="Stroke 3-4"
-                                    d="M3012.431,1202.6h-14.82"
-                                    transform="translate(-2926.611 -1193.738)"
-                                    fill="none"
-                                    stroke="#1ec18b"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                  />
-                                  <path
-                                    id="Path_42535"
-                                    data-name="Path 42535"
-                                    d="M3003.151,1200.131l4.057,4.059a1.148,1.148,0,0,1,0,1.624l-4.057,4.059"
-                                    transform="translate(-2921.246 -1196.131)"
-                                    fill="none"
-                                    stroke="#1ec18b"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                  />
-                                </g>
-                              </svg>
-                              </a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- Slide 5 -->
-                    <div class="swiper-slide">
-                      <div class="row">
-                        <span class="anim"></span>
-                        <div class="col-lg-6">
-                          <img
-                            src="https://files.elhamsol.com/media/assets/NoneCustomer/09_TIZYi0U.png"
-                            width="480"
-                            height="263"
-                            alt="img"
-                          />
-                        </div>
-                        <div class="col-lg-6 d-flex align-items-center">
-                          <div class="slider-content">
-                            <span>CPD: 3hrs</span>
-                            <h3>Informed Consent in Healthcare</h3>
-                            <p>
-                              Learn the fundamental principles for consenting
-                              and engaging your patients in the health
-                              decision-making. This will help you in preserving
-                              your patients and their families’ rights as well
-                              as your rights as a healthcare practitioner.
-                            </p>
-                            <a
-                              href="https://learning.scfhs.org.sa//home/tracks/details/2126"
-                              target="_blank"
-                              >
-                                                            Start Now
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="17.298"
-                                height="12.57"
-                                viewBox="0 0 17.298 12.57"
-                              >
-                                <g
-                                  id="Group_563"
-                                  data-name="Group 563"
-                                  transform="translate(-70 -2.586)"
-                                >
-                                  <path
-                                    id="Stroke_3-4"
-                                    data-name="Stroke 3-4"
-                                    d="M3012.431,1202.6h-14.82"
-                                    transform="translate(-2926.611 -1193.738)"
-                                    fill="none"
-                                    stroke="#1ec18b"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                  />
-                                  <path
-                                    id="Path_42535"
-                                    data-name="Path 42535"
-                                    d="M3003.151,1200.131l4.057,4.059a1.148,1.148,0,0,1,0,1.624l-4.057,4.059"
-                                    transform="translate(-2921.246 -1196.131)"
-                                    fill="none"
-                                    stroke="#1ec18b"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                  />
-                                </g>
-                              </svg>
-                              </a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- Slide 6 -->
-                    <div class="swiper-slide">
-                      <div class="row">
-                        <span class="anim"></span>
-                        <div class="col-lg-6">
-                          <img
-                            src="https://files.elhamsol.com/media/assets/%D9%85%D9%86%D8%B5%D8%A9%20%D8%A7%D9%84%D8%B1%D8%AD%D9%84%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D9%8A%D8%A9%20%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A%D8%A9/%D8%BA%D9%84%D8%A7%D9%81_%D8%B4%D8%AE%D8%B5%D9%8A%D8%A7%D8%AA_%D8%A3%D8%A8%D8%AC%D8%AF.png"
-                            width="480"
-                            height="263"
-                            alt="img"
-                          />
-                        </div>
-                        <div class="col-lg-6 d-flex align-items-center">
-                          <div class="slider-content">
-                            <span>CPD: 2hrs</span>
-                            <h3>
-                              Medical Arabic - Greetings and Introductions
-                            </h3>
-                            <p>
-                              Learn how to communicate with your patient in
-                              Saudi Arabic to provide patient-centered care.
-                              This is a self-paced learning track.
-                            </p>
-                            <a
-                              href="https://learning.scfhs.org.sa//home/tracks/details/2571"
-                              target="_blank"
-                              class="start-now"
-                            >
-                              Start Now
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="17.298"
-                                height="12.57"
-                                viewBox="0 0 17.298 12.57"
-                              >
-                                <g
-                                  id="Group_563"
-                                  data-name="Group 563"
-                                  transform="translate(-70 -2.586)"
-                                >
-                                  <path
-                                    id="Stroke_3-4"
-                                    data-name="Stroke 3-4"
-                                    d="M3012.431,1202.6h-14.82"
-                                    transform="translate(-2926.611 -1193.738)"
-                                    fill="none"
-                                    stroke="#1ec18b"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                  />
-                                  <path
-                                    id="Path_42535"
-                                    data-name="Path 42535"
-                                    d="M3003.151,1200.131l4.057,4.059a1.148,1.148,0,0,1,0,1.624l-4.057,4.059"
-                                    transform="translate(-2921.246 -1196.131)"
-                                    fill="none"
-                                    stroke="#1ec18b"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                  />
-                                </g>
-                              </svg>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- Slide 7 -->
-                    <div class="swiper-slide">
-                      <div class="row">
-                        <span class="anim"></span>
-                        <div class="col-lg-6">
-                          <img
-                            src="https://mfe-test.netlify.app/assets/images/courses/health empowerment for healthcare professionals..png"
-                            width="480"
-                            height="263"
-                            alt="img"
-                          />
-                        </div>
-                        <div class="col-lg-6 d-flex align-items-center">
-                          <div class="slider-content">
-                            <span>CPD: 5hrs</span>
-                            <h3>
-                              Health Empowerment for Healthcare Professionals
-                            </h3>
-                            <p>
-                              Learn how to empower yourself as an HCP with rules
-                              and regulations of MOH to protect your patient’s
-                              health rights. This is a self-paced learning
-                              track.
-                            </p>
-                            <a
-                              href="https://learning.scfhs.org.sa//home/tracks/details/1040"
-                              target="_blank"
-                              class="start-now"
-                              >
-                                                            Start Now
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="17.298"
-                                height="12.57"
-                                viewBox="0 0 17.298 12.57"
-                              >
-                                <g
-                                  id="Group_563"
-                                  data-name="Group 563"
-                                  transform="translate(-70 -2.586)"
-                                >
-                                  <path
-                                    id="Stroke_3-4"
-                                    data-name="Stroke 3-4"
-                                    d="M3012.431,1202.6h-14.82"
-                                    transform="translate(-2926.611 -1193.738)"
-                                    fill="none"
-                                    stroke="#1ec18b"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                  />
-                                  <path
-                                    id="Path_42535"
-                                    data-name="Path 42535"
-                                    d="M3003.151,1200.131l4.057,4.059a1.148,1.148,0,0,1,0,1.624l-4.057,4.059"
-                                    transform="translate(-2921.246 -1196.131)"
-                                    fill="none"
-                                    stroke="#1ec18b"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                  />
-                                </g>
-                              </svg>
-                              </a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- Slide 8 -->
-                    <div class="swiper-slide">
-                      <div class="row">
-                        <span class="anim"></span>
-                        <div class="col-lg-6">
-                          <img
-                            src="https://mfe-test.netlify.app/assets/images/courses/telemedicine best practices for healthcare providers.png"
-                            width="480"
-                            height="263"
-                            alt="img"
-                          />
-                        </div>
-                        <div class="col-lg-6 d-flex align-items-center">
-                          <div class="slider-content">
-                            <span>CPD: 3hrs</span>
-                            <h3>
-                              Telemedicine Best Practices for Healthcare
-                              Providers
-                            </h3>
-                            <p>
-                              Learn how to provide the best Telehealth services.
-                              This is a self-paced learning track.
-                            </p>
-                            <a
-                              href="https://learning.scfhs.org.sa//home/tracks/details/712"
-                              target="_blank"
-                              class="start-now"
-                              >
-                                                            Start Now
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="17.298"
-                                height="12.57"
-                                viewBox="0 0 17.298 12.57"
-                              >
-                                <g
-                                  id="Group_563"
-                                  data-name="Group 563"
-                                  transform="translate(-70 -2.586)"
-                                >
-                                  <path
-                                    id="Stroke_3-4"
-                                    data-name="Stroke 3-4"
-                                    d="M3012.431,1202.6h-14.82"
-                                    transform="translate(-2926.611 -1193.738)"
-                                    fill="none"
-                                    stroke="#1ec18b"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                  />
-                                  <path
-                                    id="Path_42535"
-                                    data-name="Path 42535"
-                                    d="M3003.151,1200.131l4.057,4.059a1.148,1.148,0,0,1,0,1.624l-4.057,4.059"
-                                    transform="translate(-2921.246 -1196.131)"
-                                    fill="none"
-                                    stroke="#1ec18b"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                  />
-                                </g>
-                              </svg>
-                              </a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- Additional slides... -->
+          <div class="">
+            <div class="nav-menu">
+              <nav class="navbar navbar-expand-lg">
+                <div class="p-0 w-100">
+                  <button class="navbar-toggler ms-auto">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://learning.scfhs.org.sa/landing/covid19" target="_blank">COVID
+                          -19</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://learning.scfhs.org.sa/home/tracks" target="_blank">Browse
+                          Tracks</a>
+                      </li>
+                    </ul>
                   </div>
-
-                  <!-- Add Pagination -->
-                  <div class="swiper-pagination"></div>
-
-                  <!-- Add Navigation -->
-                  <div class="swiper-button-next"></div>
-                  <div class="swiper-button-prev"></div>
                 </div>
-              </main>
+              </nav>
             </div>
           </div>
         </div>
-      </section>
-      <hr />
+      </div>
+      <!-- /container -->
+    </div>
 
-      <section class="s-p pb-4 wow fadeInUp" data-wow-delay="0.2s">
-        <div class="container">
-          <h3 class="section-heading">Why learning with us?</h3>
+    <section class="home">
+      <div class="container">
+        <div class="content">
+          <h1 class="mb-3">Join the Health Transformers!</h1>
+          <p>
+            Learn 100% online with high quality professional development
+            courses that helps you mitigate your way through your everyday
+            healthcare practice and effectively engage in the health
+            transformation journey 2030.
+          </p>
+          <a href="https://learning.scfhs.org.sa/auth/signup" target="_blank">
+            REGISTER
+            <svg xmlns="http://www.w3.org/2000/svg" width="16.798" height="11.863" viewBox="0 0 16.798 11.863">
+              <g id="Group_15" data-name="Group 15" transform="translate(-2996.861 -1199.07)">
+                <path id="Stroke_3-4" data-name="Stroke 3-4" d="M3012.427,1202.6h-14.816" transform="translate(0 2.393)"
+                  fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                <path id="Path_42535" data-name="Path 42535"
+                  d="M3003.151,1200.131l4.057,4.059a1.148,1.148,0,0,1,0,1.624l-4.057,4.059"
+                  transform="translate(5.365 0)" fill="none" stroke="#fff" stroke-linecap="round"
+                  stroke-linejoin="round" stroke-width="1.5" />
+              </g>
+            </svg>
+          </a>
+          <a href="https://learning.scfhs.org.sa/home/tracksp" target="_blank">
+            Start Now
+            <svg xmlns="http://www.w3.org/2000/svg" width="16.798" height="11.863" viewBox="0 0 16.798 11.863">
+              <g id="Group_15" data-name="Group 15" transform="translate(-2996.861 -1199.07)">
+                <path id="Stroke_3-4" data-name="Stroke 3-4" d="M3012.427,1202.6h-14.816" transform="translate(0 2.393)"
+                  fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                <path id="Path_42535" data-name="Path 42535"
+                  d="M3003.151,1200.131l4.057,4.059a1.148,1.148,0,0,1,0,1.624l-4.057,4.059"
+                  transform="translate(5.365 0)" fill="none" stroke="#fff" stroke-linecap="round"
+                  stroke-linejoin="round" stroke-width="1.5" />
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
 
-          <div class="d-flex flex-wrap justify-content-between">
-            <div class="widget">
-              <div class="icon">
-                <img
-                  src="https://mfe-test.netlify.app/assets/images/icons/icon1.svg"
-                  alt="icon"
-                />
+    <section class="s-p wow fadeInUp slider" data-wow-delay="0.2s">
+      <div class="container">
+        <h3 class="section-heading">Browse Courses</h3>
+        <!-- Slider main container -->
+        <div class="position-relative">
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <main class="container my-5">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <!-- Slide 1 -->
+                  <div class="swiper-slide">
+                    <div class="row">
+                      <span class="anim"></span>
+                      <div class="col-lg-6">
+                        <img
+                          src="https://elham-production-files.oss-me-central-1.aliyuncs.com/media/assets/Learning%20Experience%20platform/01c-01.png"
+                          width="480" height="263" alt="img" />
+                      </div>
+                      <div class="col-lg-6 d-flex align-items-center">
+                        <div class="slider-content">
+                          <span>CPD: 3hrs</span>
+                          <h3>Introduction to Reproductive Health</h3>
+                          <p>
+                          Explore the foundations of reproductive health and build essential skills to better support your patients' reproductive wellness.
+                          </p>
+                          <a href="https://learning.scfhs.org.sa//home/tracks/details/52973" target="_blank"
+                            class="start-now">
+                            Start Now
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17.298" height="12.57"
+                              viewBox="0 0 17.298 12.57">
+                              <g id="Group_563" data-name="Group 563" transform="translate(-70 -2.586)">
+                                <path id="Stroke_3-4" data-name="Stroke 3-4" d="M3012.431,1202.6h-14.82"
+                                  transform="translate(-2926.611 -1193.738)" fill="none" stroke="#1ec18b"
+                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                <path id="Path_42535" data-name="Path 42535"
+                                  d="M3003.151,1200.131l4.057,4.059a1.148,1.148,0,0,1,0,1.624l-4.057,4.059"
+                                  transform="translate(-2921.246 -1196.131)" fill="none" stroke="#1ec18b"
+                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                              </g>
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="row">
+                      <span class="anim"></span>
+                      <div class="col-lg-6">
+                        <img
+                          src="https://axrocwa5fi5e.compat.objectstorage.me-jeddah-1.oraclecloud.com/elham-ksa-files/media/assets/NoneCustomer/Cover02.png"
+                          width="480" height="263" alt="img" />
+                      </div>
+                      <div class="col-lg-6 d-flex align-items-center">
+                        <div class="slider-content">
+                          <span>CPD: 4hrs</span>
+                          <h3>Patient Experience</h3>
+                          <p>
+                            Equip yourself with the essential knowledge and
+                            skills required for delivering exceptional
+                            patient-centered care in your daily practice
+                          </p>
+                          <a href="https://learning.scfhs.org.sa//home/tracks/details/4695" target="_blank"
+                            class="start-now">
+                            Start Now
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17.298" height="12.57"
+                              viewBox="0 0 17.298 12.57">
+                              <g id="Group_563" data-name="Group 563" transform="translate(-70 -2.586)">
+                                <path id="Stroke_3-4" data-name="Stroke 3-4" d="M3012.431,1202.6h-14.82"
+                                  transform="translate(-2926.611 -1193.738)" fill="none" stroke="#1ec18b"
+                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                <path id="Path_42535" data-name="Path 42535"
+                                  d="M3003.151,1200.131l4.057,4.059a1.148,1.148,0,0,1,0,1.624l-4.057,4.059"
+                                  transform="translate(-2921.246 -1196.131)" fill="none" stroke="#1ec18b"
+                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                              </g>
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Slide 2 -->
+                  <div class="swiper-slide">
+                    <div class="row">
+                      <span class="anim"></span>
+                      <div class="col-lg-6">
+                        <img
+                          src="https://axrocwa5fi5e.compat.objectstorage.me-jeddah-1.oraclecloud.com/elham-ksa-files/media/assets/NoneCustomer/Cover01.png"
+                          width="480" height="263" alt="img" />
+                      </div>
+                      <div class="col-lg-6 d-flex align-items-center">
+                        <div class="slider-content">
+                          <span>CPD: 1hr</span>
+                          <h3>Empathy and Compassion in Healthcare</h3>
+                          <p>
+                            Learn the fundamental principles of empathy and
+                            compassion in healthcare, and equip yourself with
+                            the essential knowledge and skills to provide
+                            exceptional patient care. This will help you in
+                            fostering a supportive and compassionate
+                            healthcare environment.
+                          </p>
+                          <a href="https://learning.scfhs.org.sa//home/tracks/details/15791" target="_blank"
+                            class="start-now">
+                            Start Now
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17.298" height="12.57"
+                              viewBox="0 0 17.298 12.57">
+                              <g id="Group_563" data-name="Group 563" transform="translate(-70 -2.586)">
+                                <path id="Stroke_3-4" data-name="Stroke 3-4" d="M3012.431,1202.6h-14.82"
+                                  transform="translate(-2926.611 -1193.738)" fill="none" stroke="#1ec18b"
+                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                <path id="Path_42535" data-name="Path 42535"
+                                  d="M3003.151,1200.131l4.057,4.059a1.148,1.148,0,0,1,0,1.624l-4.057,4.059"
+                                  transform="translate(-2921.246 -1196.131)" fill="none" stroke="#1ec18b"
+                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                              </g>
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Slide 3 -->
+                  <div class="swiper-slide">
+                    <div class="row">
+                      <span class="anim"></span>
+                      <div class="col-lg-6">
+                        <img
+                          src="https://axrocwa5fi5e.compat.objectstorage.me-jeddah-1.oraclecloud.com/elham-ksa-files/media/assets/NoneCustomer/Artboard_1.png"
+                          width="480" height="263" alt="img" />
+                      </div>
+                      <div class="col-lg-6 d-flex align-items-center">
+                        <div class="slider-content">
+                          <h3>World Patient Safety Day</h3>
+                          <p>
+                            In collaboration with The Saudi Patient Safety
+                            Center (SPSC), we are hosting these webinars to
+                            commemorate Patient Safety Day with the WHO theme
+                            of spread knowledge in the field of patient
+                            safety.
+                          </p>
+                          <a href="https://learning.scfhs.org.sa//home/tracks/details/15825" class="start-now">
+                            Start Now
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17.298" height="12.57"
+                              viewBox="0 0 17.298 12.57">
+                              <g id="Group_563" data-name="Group 563" transform="translate(-70 -2.586)">
+                                <path id="Stroke_3-4" data-name="Stroke 3-4" d="M3012.431,1202.6h-14.82"
+                                  transform="translate(-2926.611 -1193.738)" fill="none" stroke="#1ec18b"
+                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                <path id="Path_42535" data-name="Path 42535"
+                                  d="M3003.151,1200.131l4.057,4.059a1.148,1.148,0,0,1,0,1.624l-4.057,4.059"
+                                  transform="translate(-2921.246 -1196.131)" fill="none" stroke="#1ec18b"
+                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                              </g>
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Slide 4 -->
+                  <div class="swiper-slide">
+                    <div class="row">
+                      <span class="anim"></span>
+                      <div class="col-lg-6">
+                        <img
+                          src="https://axrocwa5fi5e.compat.objectstorage.me-jeddah-1.oraclecloud.com/elham-ksa-files/media/assets/NoneCustomer/2vQcYBlA.png"
+                          width="480" height="263" alt="img" />
+                      </div>
+                      <div class="col-lg-6 d-flex align-items-center">
+                        <div class="slider-content">
+                          <span>CPD: 2hrs</span>
+                          <h3>
+                            Healthcare practitioners’ role against substance
+                            abuse
+                          </h3>
+                          <p>
+                            Learn how to equip yourself with the knowledge and
+                            skills necessary to address substance abuse and
+                            addiction in Saudi Arabia, and discover how to
+                            approach patients who may be experiencing
+                            substance abuse disorder in a professional and
+                            ethical way.
+                          </p>
+                          <a href="https://learning.scfhs.org.sa//home/tracks/details/15784" target="_blank"
+                            class="start-now">
+                            Start Now
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17.298" height="12.57"
+                              viewBox="0 0 17.298 12.57">
+                              <g id="Group_563" data-name="Group 563" transform="translate(-70 -2.586)">
+                                <path id="Stroke_3-4" data-name="Stroke 3-4" d="M3012.431,1202.6h-14.82"
+                                  transform="translate(-2926.611 -1193.738)" fill="none" stroke="#1ec18b"
+                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                <path id="Path_42535" data-name="Path 42535"
+                                  d="M3003.151,1200.131l4.057,4.059a1.148,1.148,0,0,1,0,1.624l-4.057,4.059"
+                                  transform="translate(-2921.246 -1196.131)" fill="none" stroke="#1ec18b"
+                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                              </g>
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Slide 5 -->
+                  <div class="swiper-slide">
+                    <div class="row">
+                      <span class="anim"></span>
+                      <div class="col-lg-6">
+                        <img src="https://files.elhamsol.com/media/assets/NoneCustomer/09_TIZYi0U.png" width="480"
+                          height="263" alt="img" />
+                      </div>
+                      <div class="col-lg-6 d-flex align-items-center">
+                        <div class="slider-content">
+                          <span>CPD: 3hrs</span>
+                          <h3>Informed Consent in Healthcare</h3>
+                          <p>
+                            Learn the fundamental principles for consenting
+                            and engaging your patients in the health
+                            decision-making. This will help you in preserving
+                            your patients and their families’ rights as well
+                            as your rights as a healthcare practitioner.
+                          </p>
+                          <a href="https://learning.scfhs.org.sa//home/tracks/details/2126" target="_blank">
+                            Start Now
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17.298" height="12.57"
+                              viewBox="0 0 17.298 12.57">
+                              <g id="Group_563" data-name="Group 563" transform="translate(-70 -2.586)">
+                                <path id="Stroke_3-4" data-name="Stroke 3-4" d="M3012.431,1202.6h-14.82"
+                                  transform="translate(-2926.611 -1193.738)" fill="none" stroke="#1ec18b"
+                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                <path id="Path_42535" data-name="Path 42535"
+                                  d="M3003.151,1200.131l4.057,4.059a1.148,1.148,0,0,1,0,1.624l-4.057,4.059"
+                                  transform="translate(-2921.246 -1196.131)" fill="none" stroke="#1ec18b"
+                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                              </g>
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Slide 6 -->
+                  <div class="swiper-slide">
+                    <div class="row">
+                      <span class="anim"></span>
+                      <div class="col-lg-6">
+                        <img
+                          src="https://files.elhamsol.com/media/assets/%D9%85%D9%86%D8%B5%D8%A9%20%D8%A7%D9%84%D8%B1%D8%AD%D9%84%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D9%8A%D8%A9%20%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A%D8%A9/%D8%BA%D9%84%D8%A7%D9%81_%D8%B4%D8%AE%D8%B5%D9%8A%D8%A7%D8%AA_%D8%A3%D8%A8%D8%AC%D8%AF.png"
+                          width="480" height="263" alt="img" />
+                      </div>
+                      <div class="col-lg-6 d-flex align-items-center">
+                        <div class="slider-content">
+                          <span>CPD: 2hrs</span>
+                          <h3>
+                            Medical Arabic - Greetings and Introductions
+                          </h3>
+                          <p>
+                            Learn how to communicate with your patient in
+                            Saudi Arabic to provide patient-centered care.
+                            This is a self-paced learning track.
+                          </p>
+                          <a href="https://learning.scfhs.org.sa//home/tracks/details/2571" target="_blank"
+                            class="start-now">
+                            Start Now
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17.298" height="12.57"
+                              viewBox="0 0 17.298 12.57">
+                              <g id="Group_563" data-name="Group 563" transform="translate(-70 -2.586)">
+                                <path id="Stroke_3-4" data-name="Stroke 3-4" d="M3012.431,1202.6h-14.82"
+                                  transform="translate(-2926.611 -1193.738)" fill="none" stroke="#1ec18b"
+                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                <path id="Path_42535" data-name="Path 42535"
+                                  d="M3003.151,1200.131l4.057,4.059a1.148,1.148,0,0,1,0,1.624l-4.057,4.059"
+                                  transform="translate(-2921.246 -1196.131)" fill="none" stroke="#1ec18b"
+                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                              </g>
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Slide 7 -->
+                  <div class="swiper-slide">
+                    <div class="row">
+                      <span class="anim"></span>
+                      <div class="col-lg-6">
+                        <img
+                          src="https://mfe-test.netlify.app/assets/images/courses/health empowerment for healthcare professionals..png"
+                          width="480" height="263" alt="img" />
+                      </div>
+                      <div class="col-lg-6 d-flex align-items-center">
+                        <div class="slider-content">
+                          <span>CPD: 5hrs</span>
+                          <h3>
+                            Health Empowerment for Healthcare Professionals
+                          </h3>
+                          <p>
+                            Learn how to empower yourself as an HCP with rules
+                            and regulations of MOH to protect your patient’s
+                            health rights. This is a self-paced learning
+                            track.
+                          </p>
+                          <a href="https://learning.scfhs.org.sa//home/tracks/details/1040" target="_blank"
+                            class="start-now">
+                            Start Now
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17.298" height="12.57"
+                              viewBox="0 0 17.298 12.57">
+                              <g id="Group_563" data-name="Group 563" transform="translate(-70 -2.586)">
+                                <path id="Stroke_3-4" data-name="Stroke 3-4" d="M3012.431,1202.6h-14.82"
+                                  transform="translate(-2926.611 -1193.738)" fill="none" stroke="#1ec18b"
+                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                <path id="Path_42535" data-name="Path 42535"
+                                  d="M3003.151,1200.131l4.057,4.059a1.148,1.148,0,0,1,0,1.624l-4.057,4.059"
+                                  transform="translate(-2921.246 -1196.131)" fill="none" stroke="#1ec18b"
+                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                              </g>
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Slide 8 -->
+                  <div class="swiper-slide">
+                    <div class="row">
+                      <span class="anim"></span>
+                      <div class="col-lg-6">
+                        <img
+                          src="https://mfe-test.netlify.app/assets/images/courses/telemedicine best practices for healthcare providers.png"
+                          width="480" height="263" alt="img" />
+                      </div>
+                      <div class="col-lg-6 d-flex align-items-center">
+                        <div class="slider-content">
+                          <span>CPD: 3hrs</span>
+                          <h3>
+                            Telemedicine Best Practices for Healthcare
+                            Providers
+                          </h3>
+                          <p>
+                            Learn how to provide the best Telehealth services.
+                            This is a self-paced learning track.
+                          </p>
+                          <a href="https://learning.scfhs.org.sa//home/tracks/details/712" target="_blank"
+                            class="start-now">
+                            Start Now
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17.298" height="12.57"
+                              viewBox="0 0 17.298 12.57">
+                              <g id="Group_563" data-name="Group 563" transform="translate(-70 -2.586)">
+                                <path id="Stroke_3-4" data-name="Stroke 3-4" d="M3012.431,1202.6h-14.82"
+                                  transform="translate(-2926.611 -1193.738)" fill="none" stroke="#1ec18b"
+                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                <path id="Path_42535" data-name="Path 42535"
+                                  d="M3003.151,1200.131l4.057,4.059a1.148,1.148,0,0,1,0,1.624l-4.057,4.059"
+                                  transform="translate(-2921.246 -1196.131)" fill="none" stroke="#1ec18b"
+                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                              </g>
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Additional slides... -->
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- Add Navigation -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
               </div>
-              <div class="content">
-                <h5>Integrated Portfolio</h5>
-                <p>
-                  Keep track of your learning. Your earned CPD hours will be
-                  automatically registered in your Mumaris plus profile.
-                </p>
-              </div>
+            </main>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+
+    <section class="s-p pb-4 wow fadeInUp" data-wow-delay="0.2s">
+      <div class="container">
+        <h3 class="section-heading">Why learning with us?</h3>
+
+        <div class="d-flex flex-wrap justify-content-between">
+          <div class="widget">
+            <div class="icon">
+              <img src="https://mfe-test.netlify.app/assets/images/icons/icon1.svg" alt="icon" />
             </div>
-            <div class="widget">
-              <div class="icon">
-                <img
-                  src="https://mfe-test.netlify.app/assets/images/icons/icon2.svg"
-                  alt="icon"
-                />
-              </div>
-              <div class="content">
-                <h5>Accredited Resources</h5>
-                <p>
-                  Earn CPD hours and digital certificate. Learning resources are
-                  evidence based , expert- led and accredited .
-                </p>
-              </div>
+            <div class="content">
+              <h5>Integrated Portfolio</h5>
+              <p>
+                Keep track of your learning. Your earned CPD hours will be
+                automatically registered in your Mumaris plus profile.
+              </p>
             </div>
-            <!-- <div class="widget">
+          </div>
+          <div class="widget">
+            <div class="icon">
+              <img src="https://mfe-test.netlify.app/assets/images/icons/icon2.svg" alt="icon" />
+            </div>
+            <div class="content">
+              <h5>Accredited Resources</h5>
+              <p>
+                Earn CPD hours and digital certificate. Learning resources are
+                evidence based , expert- led and accredited .
+              </p>
+            </div>
+          </div>
+          <!-- <div class="widget">
           <div class="icon">
             <img src="https://mfe-test.netlify.app/assets/images/icons/icon3.svg" alt="icon">
           </div>
@@ -809,921 +526,318 @@
             </p>
           </div>
         </div> -->
-            <div class="widget">
+          <div class="widget">
+            <div class="icon">
+              <img src="https://mfe-test.netlify.app/assets/images/icons/icon4.svg" alt="icon" />
+            </div>
+            <div class="content">
+              <h5>Flexible learning</h5>
+              <p>
+                Learn anywhere, any time with Self-paced learning modules,
+                built to accommodate your everyday busy schedule.
+              </p>
+            </div>
+          </div>
+          <div class="widget">
+            <div class="icon">
+              <img src="https://mfe-test.netlify.app/assets/images/icons/icon5.svg" alt="icon" />
+            </div>
+            <div class="content">
+              <h5>Up to date</h5>
+              <p>
+                Stay up to date with courses that features hot topics in
+                Health Transformation 2030 and essential skills in medical
+                practice.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+
+    <section class="s-p wow fadeInUp" data-wow-delay="0.2s">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 border-1">
+            <div class="widget_2">
               <div class="icon">
-                <img
-                  src="https://mfe-test.netlify.app/assets/images/icons/icon4.svg"
-                  alt="icon"
-                />
+                <svg xmlns="http://www.w3.org/2000/svg" width="58" height="57" viewBox="0 0 58 57">
+                  <g id="Group_572" data-name="Group 572" transform="translate(0.75 0.75)">
+                    <g id="Group_555" data-name="Group 555">
+                      <path id="Path_19923" data-name="Path 19923"
+                        d="M28.25,29.25c-3.745,0-11,2.043-11,6V47.332a3.789,3.789,0,0,0,4,3.918h1v4h12v-4h1a3.789,3.789,0,0,0,4-3.918V35.25C39.25,31.293,32,29.25,28.25,29.25Z"
+                        fill="none" stroke="#135f9b" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-miterlimit="10" stroke-width="2" />
+                      <path id="Path_19925" data-name="Path 19925"
+                        d="M35.25,51.332a3.855,3.855,0,0,0,4-4V35.25c0-3.957-7.255-6-11-6s-11,2.043-11,6V47.332a3.855,3.855,0,0,0,4,4"
+                        fill="none" stroke="#135f9b" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-miterlimit="10" stroke-width="2" />
+                      <path id="Path_19927" data-name="Path 19927"
+                        d="M28.25,26.237a5.032,5.032,0,0,0,5-5.1v-1.7a5,5,0,1,0-10,0v1.7A5.032,5.032,0,0,0,28.25,26.237Z"
+                        fill="none" stroke="#135f9b" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-miterlimit="10" stroke-width="2" />
+                      <path id="Path_19928" data-name="Path 19928"
+                        d="M20.25,12.156a5.032,5.032,0,0,0,5-5.1v-1.7a5,5,0,1,0-10,0v1.7a5.032,5.032,0,0,0,5,5.1"
+                        fill="none" stroke="#135f9b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                      <path id="Path_19931" data-name="Path 19931"
+                        d="M36.25,12.156a5.032,5.032,0,0,0,5-5.1v-1.7a5,5,0,1,0-10,0v1.7A5.032,5.032,0,0,0,36.25,12.156Z"
+                        fill="none" stroke="#135f9b" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-miterlimit="10" stroke-width="2" />
+                      <line id="Line_31" data-name="Line 31" y1="16" transform="translate(34.25 39.25)" fill="none"
+                        stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                      <line id="Line_32" data-name="Line 32" y2="16" transform="translate(22.25 39.25)" fill="none"
+                        stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                      <line id="Line_33" data-name="Line 33" y1="16" transform="translate(5.25 39.25)" fill="none"
+                        stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                      <path id="Path_19932" data-name="Path 19932"
+                        d="M11.25,26.156a5.032,5.032,0,0,1-5-5.1v-1.7a5,5,0,1,1,10,0v1.7a5.032,5.032,0,0,1-5,5.1"
+                        fill="none" stroke="#135f9b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                      <path id="Path_19934" data-name="Path 19934"
+                        d="M17.252,30.4a18.694,18.694,0,0,0-6-1.152c-3.745,0-11,2.043-11,6V47.332a3.855,3.855,0,0,0,4,4"
+                        fill="none" stroke="#135f9b" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-miterlimit="10" stroke-width="2" />
+                      <line id="Line_34" data-name="Line 34" y1="16" transform="translate(51.25 39.25)" fill="none"
+                        stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                      <path id="Path_19935" data-name="Path 19935"
+                        d="M45.25,26.156a5.032,5.032,0,0,0,5-5.1v-1.7a5,5,0,1,0-10,0v1.7a5.032,5.032,0,0,0,5,5.1"
+                        fill="#fff" stroke="#135f9b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                      <path id="Path_19937" data-name="Path 19937"
+                        d="M39.25,30.4a18.693,18.693,0,0,1,6-1.152c3.745,0,11,2.043,11,6V47.332a3.854,3.854,0,0,1-4,4"
+                        fill="none" stroke="#135f9b" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-miterlimit="10" stroke-width="2" />
+                    </g>
+                  </g>
+                </svg>
               </div>
               <div class="content">
-                <h5>Flexible learning</h5>
-                <p>
-                  Learn anywhere, any time with Self-paced learning modules,
-                  built to accommodate your everyday busy schedule.
-                </p>
+                <h5>+30K</h5>
+                <p>Number of user</p>
               </div>
             </div>
-            <div class="widget">
+          </div>
+
+          <div class="col-lg-4 col-md-6 border-1">
+            <div class="widget_2">
               <div class="icon">
-                <img
-                  src="https://mfe-test.netlify.app/assets/images/icons/icon5.svg"
-                  alt="icon"
-                />
+                <svg xmlns="http://www.w3.org/2000/svg" width="60.278" height="59" viewBox="0 0 60.278 59">
+                  <g id="Group_571" data-name="Group 571" transform="translate(1 0.75)">
+                    <g id="Group_556" data-name="Group 556">
+                      <path id="Path_19949" data-name="Path 19949"
+                        d="M53,30.25A20.5,20.5,0,1,1,32.5,9.75,20.5,20.5,0,0,1,53,30.25" fill="none" stroke="#135f9b"
+                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                      <path id="Path_19950" data-name="Path 19950" d="M12.024,29.25a20.428,20.428,0,0,1,.868-5"
+                        fill="none" stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                      <path id="Path_19951" data-name="Path 19951" d="M13.225,37.247a20.415,20.415,0,0,1-1.129-5"
+                        fill="none" stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                      <path id="Path_19952" data-name="Path 19952" d="M14.076,21.25a20.5,20.5,0,1,1,.526,19" fill="none"
+                        stroke="#135f9b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+                        stroke-width="2" />
+                      <path id="Path_19953" data-name="Path 19953" d="M21.938,19.25A15.25,15.25,0,1,1,22,41.309"
+                        fill="none" stroke="#135f9b" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-miterlimit="10" stroke-width="2" />
+                      <path id="Path_19954" data-name="Path 19954" d="M43,30.25a11,11,0,1,1-11-11,11,11,0,0,1,11,11"
+                        fill="none" stroke="#135f9b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                      <line id="Line_50" data-name="Line 50" x1="6" transform="translate(16 3.25)" fill="none"
+                        stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                      <path id="Path_19955" data-name="Path 19955" d="M58,21A26.8,26.8,0,0,0,42,4.873" fill="none"
+                        stroke="#135f9b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+                        stroke-width="2" />
+                      <path id="Path_19956" data-name="Path 19956" d="M54.939,46.5A26.711,26.711,0,0,1,33.5,57.25H20"
+                        fill="none" stroke="#135f9b" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-miterlimit="10" stroke-width="2" />
+                      <path id="Path_19957" data-name="Path 19957" d="M30,7.25v-3h5v3" fill="none" stroke="#135f9b"
+                        stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+                      <rect id="Rectangle_150" data-name="Rectangle 150" width="11" height="4"
+                        transform="translate(27 0.25)" fill="none" stroke="#135f9b" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+                      <line id="Line_51" data-name="Line 51" x2="14" transform="translate(5 21.25)" fill="none"
+                        stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                      <line id="Line_52" data-name="Line 52" x2="16" transform="translate(0 29.25)" fill="none"
+                        stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                      <line id="Line_53" data-name="Line 53" x2="14" transform="translate(4 37.25)" fill="none"
+                        stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                      <line id="Line_54" data-name="Line 54" y1="6.588" x2="6.214" transform="translate(34.786 21.25)"
+                        fill="none" stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                      <line id="Line_55" data-name="Line 55" x1="4" transform="translate(10 57.25)" fill="none"
+                        stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                      <line id="Line_56" data-name="Line 56" x1="2" transform="translate(2 57.25)" fill="none"
+                        stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                      <line id="Line_57" data-name="Line 57" x1="4" transform="translate(7 3.25)" fill="none"
+                        stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                      <line id="Line_58" data-name="Line 58" x1="2" transform="translate(0 3.25)" fill="none"
+                        stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                      <circle id="Ellipse_17" data-name="Ellipse 17" cx="2.75" cy="2.75" r="2.75"
+                        transform="translate(29.75 27.5)" fill="none" stroke="#135f9b" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+                      <line id="Line_59" data-name="Line 59" x1="3.676" y2="3.676" transform="translate(14.56 10.384)"
+                        fill="none" stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                      <line id="Line_60" data-name="Line 60" x2="2.602" y2="2.602" transform="translate(16.399 12.222)"
+                        fill="none" stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                    </g>
+                  </g>
+                </svg>
               </div>
               <div class="content">
-                <h5>Up to date</h5>
-                <p>
-                  Stay up to date with courses that features hot topics in
-                  Health Transformation 2030 and essential skills in medical
-                  practice.
-                </p>
+                <h5>+50M</h5>
+                <p>Learning minutes</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 border-0">
+            <div class="widget_2">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="58" viewBox="0 0 54 58">
+                  <g id="Group_557" data-name="Group 557" transform="translate(-2 -3)">
+                    <rect id="Rectangle_148" data-name="Rectangle 148" width="52" height="40" transform="translate(3 4)"
+                      fill="none" stroke="#135f9b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                    <path id="Path_19939" data-name="Path 19939"
+                      d="M42,37.693a3.034,3.034,0,0,1,1.422-.415c1.718,0,5.75,2.894,6.975,1.7,1.018-.854-1.885-5-1.885-6.3,0-1.552,2.149-2.79,2.149-4.342S48.512,25.55,48.512,24s2.262-2.79,2.262-4.341-2.262-2.79-2.262-4.342,3.2-5.192,1.885-6.3c-1.225-1.191-5.257,1.7-6.975,1.7s-3.089-2.043-4.807-2.043-3.09,2.043-4.807,2.043S30.718,8.677,29,8.677s-3.089,2.043-4.807,2.043S21.1,8.677,19.386,8.677,16.3,10.72,14.579,10.72,8.829,7.826,7.6,9.018c-1.32,1.106,1.885,4.747,1.885,6.3s-2.262,2.79-2.262,4.341S9.489,22.448,9.489,24s-2.262,2.79-2.262,4.342,2.262,2.79,2.262,4.341-3.205,5.192-1.885,6.3c1.225,1.192,5.257-1.7,6.975-1.7A3.029,3.029,0,0,1,16,37.693"
+                      fill="none" stroke="#135f9b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+                      stroke-width="2" />
+                    <line id="Line_35" data-name="Line 35" x2="13" transform="translate(23 17)" fill="none"
+                      stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                    <line id="Line_36" data-name="Line 36" x2="21" transform="translate(19 22)" fill="none"
+                      stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                    <line id="Line_37" data-name="Line 37" x1="8" transform="translate(8 44)" fill="none"
+                      stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                    <line id="Line_38" data-name="Line 38" x1="8" transform="translate(42 44)" fill="none"
+                      stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                    <path id="Path_19940" data-name="Path 19940" d="M55,27V44H52" fill="none" stroke="#135f9b"
+                      stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+                    <path id="Path_19941" data-name="Path 19941" d="M52,4h3V21" fill="none" stroke="#135f9b"
+                      stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+                    <line id="Line_39" data-name="Line 39" x2="42" transform="translate(8 4)" fill="none"
+                      stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                    <line id="Line_40" data-name="Line 40" y2="2" transform="translate(55 23)" fill="none"
+                      stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                    <path id="Path_19942" data-name="Path 19942" d="M3,27V44H6" fill="none" stroke="#135f9b"
+                      stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+                    <path id="Path_19943" data-name="Path 19943" d="M6,4H3V21" fill="none" stroke="#135f9b"
+                      stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+                    <line id="Line_41" data-name="Line 41" y2="2" transform="translate(3 23)" fill="none"
+                      stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                    <path id="Path_19944" data-name="Path 19944" d="M25,45V60l4-3,4,3V45Z" fill="none" stroke="#135f9b"
+                      stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                    <path id="Path_19945" data-name="Path 19945" d="M25,45V60l4-3,4,3V45Z" fill="none" stroke="#135f9b"
+                      stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+                    <path id="Path_19946" data-name="Path 19946"
+                      d="M29,29.456h0a3.335,3.335,0,0,1,6.041,2.5A3.335,3.335,0,0,1,37.544,38a3.335,3.335,0,0,1-2.5,6.042A3.335,3.335,0,0,1,29,46.544a3.335,3.335,0,0,1-6.042-2.5A3.335,3.335,0,0,1,20.456,38a3.335,3.335,0,0,1,2.5-6.041A3.335,3.335,0,0,1,29,29.456"
+                      fill="#fff" stroke="#135f9b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                    <path id="Path_19947" data-name="Path 19947"
+                      d="M29,29.456h0a3.335,3.335,0,0,1,6.041,2.5A3.335,3.335,0,0,1,37.544,38a3.335,3.335,0,0,1-2.5,6.042A3.335,3.335,0,0,1,29,46.544a3.335,3.335,0,0,1-6.042-2.5A3.335,3.335,0,0,1,20.456,38a3.335,3.335,0,0,1,2.5-6.041A3.335,3.335,0,0,1,29,29.456Z"
+                      fill="none" stroke="#135f9b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+                      stroke-width="2" />
+                    <line id="Line_42" data-name="Line 42" x2="1" y2="1" transform="translate(23 32)" fill="none"
+                      stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                    <line id="Line_43" data-name="Line 43" x1="1" y1="1" transform="translate(34 43)" fill="none"
+                      stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                    <line id="Line_44" data-name="Line 44" x1="1" y2="1" transform="translate(34 32)" fill="none"
+                      stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                    <line id="Line_45" data-name="Line 45" y1="1" x2="1" transform="translate(23 43)" fill="none"
+                      stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                    <line id="Line_46" data-name="Line 46" x1="2" transform="translate(36 38)" fill="none"
+                      stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                    <line id="Line_47" data-name="Line 47" x1="2" transform="translate(20 38)" fill="none"
+                      stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                    <line id="Line_48" data-name="Line 48" y2="2" transform="translate(29 29)" fill="none"
+                      stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                    <line id="Line_49" data-name="Line 49" y1="2" transform="translate(29 45)" fill="none"
+                      stroke="#135f9b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                    <path id="Path_19948" data-name="Path 19948" d="M33,38a4,4,0,1,1-4-4,4,4,0,0,1,4,4" fill="none"
+                      stroke="#135f9b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                    <circle id="Ellipse_16" data-name="Ellipse 16" cx="4" cy="4" r="4" transform="translate(25 34)"
+                      fill="none" stroke="#135f9b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+                      stroke-width="2" />
+                  </g>
+                </svg>
+              </div>
+              <div class="content">
+                <h5>+10K</h5>
+                <p>Learning certificates</p>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <hr />
+      </div>
+    </section>
+    <hr />
 
-      <section class="s-p wow fadeInUp" data-wow-delay="0.2s">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4 col-md-6 border-1">
-              <div class="widget_2">
-                <div class="icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="58"
-                    height="57"
-                    viewBox="0 0 58 57"
-                  >
-                    <g
-                      id="Group_572"
-                      data-name="Group 572"
-                      transform="translate(0.75 0.75)"
-                    >
-                      <g id="Group_555" data-name="Group 555">
-                        <path
-                          id="Path_19923"
-                          data-name="Path 19923"
-                          d="M28.25,29.25c-3.745,0-11,2.043-11,6V47.332a3.789,3.789,0,0,0,4,3.918h1v4h12v-4h1a3.789,3.789,0,0,0,4-3.918V35.25C39.25,31.293,32,29.25,28.25,29.25Z"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <path
-                          id="Path_19925"
-                          data-name="Path 19925"
-                          d="M35.25,51.332a3.855,3.855,0,0,0,4-4V35.25c0-3.957-7.255-6-11-6s-11,2.043-11,6V47.332a3.855,3.855,0,0,0,4,4"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <path
-                          id="Path_19927"
-                          data-name="Path 19927"
-                          d="M28.25,26.237a5.032,5.032,0,0,0,5-5.1v-1.7a5,5,0,1,0-10,0v1.7A5.032,5.032,0,0,0,28.25,26.237Z"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <path
-                          id="Path_19928"
-                          data-name="Path 19928"
-                          d="M20.25,12.156a5.032,5.032,0,0,0,5-5.1v-1.7a5,5,0,1,0-10,0v1.7a5.032,5.032,0,0,0,5,5.1"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                        />
-                        <path
-                          id="Path_19931"
-                          data-name="Path 19931"
-                          d="M36.25,12.156a5.032,5.032,0,0,0,5-5.1v-1.7a5,5,0,1,0-10,0v1.7A5.032,5.032,0,0,0,36.25,12.156Z"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <line
-                          id="Line_31"
-                          data-name="Line 31"
-                          y1="16"
-                          transform="translate(34.25 39.25)"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <line
-                          id="Line_32"
-                          data-name="Line 32"
-                          y2="16"
-                          transform="translate(22.25 39.25)"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <line
-                          id="Line_33"
-                          data-name="Line 33"
-                          y1="16"
-                          transform="translate(5.25 39.25)"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <path
-                          id="Path_19932"
-                          data-name="Path 19932"
-                          d="M11.25,26.156a5.032,5.032,0,0,1-5-5.1v-1.7a5,5,0,1,1,10,0v1.7a5.032,5.032,0,0,1-5,5.1"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                        />
-                        <path
-                          id="Path_19934"
-                          data-name="Path 19934"
-                          d="M17.252,30.4a18.694,18.694,0,0,0-6-1.152c-3.745,0-11,2.043-11,6V47.332a3.855,3.855,0,0,0,4,4"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <line
-                          id="Line_34"
-                          data-name="Line 34"
-                          y1="16"
-                          transform="translate(51.25 39.25)"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <path
-                          id="Path_19935"
-                          data-name="Path 19935"
-                          d="M45.25,26.156a5.032,5.032,0,0,0,5-5.1v-1.7a5,5,0,1,0-10,0v1.7a5.032,5.032,0,0,0,5,5.1"
-                          fill="#fff"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                        />
-                        <path
-                          id="Path_19937"
-                          data-name="Path 19937"
-                          d="M39.25,30.4a18.693,18.693,0,0,1,6-1.152c3.745,0,11,2.043,11,6V47.332a3.854,3.854,0,0,1-4,4"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                      </g>
-                    </g>
-                  </svg>
-                </div>
-                <div class="content">
-                  <h5>+30K</h5>
-                  <p>Number of user</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 border-1">
-              <div class="widget_2">
-                <div class="icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="60.278"
-                    height="59"
-                    viewBox="0 0 60.278 59"
-                  >
-                    <g
-                      id="Group_571"
-                      data-name="Group 571"
-                      transform="translate(1 0.75)"
-                    >
-                      <g id="Group_556" data-name="Group 556">
-                        <path
-                          id="Path_19949"
-                          data-name="Path 19949"
-                          d="M53,30.25A20.5,20.5,0,1,1,32.5,9.75,20.5,20.5,0,0,1,53,30.25"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                        />
-                        <path
-                          id="Path_19950"
-                          data-name="Path 19950"
-                          d="M12.024,29.25a20.428,20.428,0,0,1,.868-5"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <path
-                          id="Path_19951"
-                          data-name="Path 19951"
-                          d="M13.225,37.247a20.415,20.415,0,0,1-1.129-5"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <path
-                          id="Path_19952"
-                          data-name="Path 19952"
-                          d="M14.076,21.25a20.5,20.5,0,1,1,.526,19"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <path
-                          id="Path_19953"
-                          data-name="Path 19953"
-                          d="M21.938,19.25A15.25,15.25,0,1,1,22,41.309"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <path
-                          id="Path_19954"
-                          data-name="Path 19954"
-                          d="M43,30.25a11,11,0,1,1-11-11,11,11,0,0,1,11,11"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                        />
-                        <line
-                          id="Line_50"
-                          data-name="Line 50"
-                          x1="6"
-                          transform="translate(16 3.25)"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <path
-                          id="Path_19955"
-                          data-name="Path 19955"
-                          d="M58,21A26.8,26.8,0,0,0,42,4.873"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <path
-                          id="Path_19956"
-                          data-name="Path 19956"
-                          d="M54.939,46.5A26.711,26.711,0,0,1,33.5,57.25H20"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <path
-                          id="Path_19957"
-                          data-name="Path 19957"
-                          d="M30,7.25v-3h5v3"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <rect
-                          id="Rectangle_150"
-                          data-name="Rectangle 150"
-                          width="11"
-                          height="4"
-                          transform="translate(27 0.25)"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <line
-                          id="Line_51"
-                          data-name="Line 51"
-                          x2="14"
-                          transform="translate(5 21.25)"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <line
-                          id="Line_52"
-                          data-name="Line 52"
-                          x2="16"
-                          transform="translate(0 29.25)"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <line
-                          id="Line_53"
-                          data-name="Line 53"
-                          x2="14"
-                          transform="translate(4 37.25)"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <line
-                          id="Line_54"
-                          data-name="Line 54"
-                          y1="6.588"
-                          x2="6.214"
-                          transform="translate(34.786 21.25)"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <line
-                          id="Line_55"
-                          data-name="Line 55"
-                          x1="4"
-                          transform="translate(10 57.25)"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <line
-                          id="Line_56"
-                          data-name="Line 56"
-                          x1="2"
-                          transform="translate(2 57.25)"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <line
-                          id="Line_57"
-                          data-name="Line 57"
-                          x1="4"
-                          transform="translate(7 3.25)"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <line
-                          id="Line_58"
-                          data-name="Line 58"
-                          x1="2"
-                          transform="translate(0 3.25)"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <circle
-                          id="Ellipse_17"
-                          data-name="Ellipse 17"
-                          cx="2.75"
-                          cy="2.75"
-                          r="2.75"
-                          transform="translate(29.75 27.5)"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <line
-                          id="Line_59"
-                          data-name="Line 59"
-                          x1="3.676"
-                          y2="3.676"
-                          transform="translate(14.56 10.384)"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                        <line
-                          id="Line_60"
-                          data-name="Line 60"
-                          x2="2.602"
-                          y2="2.602"
-                          transform="translate(16.399 12.222)"
-                          fill="none"
-                          stroke="#135f9b"
-                          stroke-linecap="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
-                        />
-                      </g>
-                    </g>
-                  </svg>
-                </div>
-                <div class="content">
-                  <h5>+50M</h5>
-                  <p>Learning minutes</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 border-0">
-              <div class="widget_2">
-                <div class="icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="54"
-                    height="58"
-                    viewBox="0 0 54 58"
-                  >
-                    <g
-                      id="Group_557"
-                      data-name="Group 557"
-                      transform="translate(-2 -3)"
-                    >
-                      <rect
-                        id="Rectangle_148"
-                        data-name="Rectangle 148"
-                        width="52"
-                        height="40"
-                        transform="translate(3 4)"
-                        fill="none"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                      />
-                      <path
-                        id="Path_19939"
-                        data-name="Path 19939"
-                        d="M42,37.693a3.034,3.034,0,0,1,1.422-.415c1.718,0,5.75,2.894,6.975,1.7,1.018-.854-1.885-5-1.885-6.3,0-1.552,2.149-2.79,2.149-4.342S48.512,25.55,48.512,24s2.262-2.79,2.262-4.341-2.262-2.79-2.262-4.342,3.2-5.192,1.885-6.3c-1.225-1.191-5.257,1.7-6.975,1.7s-3.089-2.043-4.807-2.043-3.09,2.043-4.807,2.043S30.718,8.677,29,8.677s-3.089,2.043-4.807,2.043S21.1,8.677,19.386,8.677,16.3,10.72,14.579,10.72,8.829,7.826,7.6,9.018c-1.32,1.106,1.885,4.747,1.885,6.3s-2.262,2.79-2.262,4.341S9.489,22.448,9.489,24s-2.262,2.79-2.262,4.342,2.262,2.79,2.262,4.341-3.205,5.192-1.885,6.3c1.225,1.192,5.257-1.7,6.975-1.7A3.029,3.029,0,0,1,16,37.693"
-                        fill="none"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
-                      />
-                      <line
-                        id="Line_35"
-                        data-name="Line 35"
-                        x2="13"
-                        transform="translate(23 17)"
-                        fill="none"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
-                      />
-                      <line
-                        id="Line_36"
-                        data-name="Line 36"
-                        x2="21"
-                        transform="translate(19 22)"
-                        fill="none"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
-                      />
-                      <line
-                        id="Line_37"
-                        data-name="Line 37"
-                        x1="8"
-                        transform="translate(8 44)"
-                        fill="none"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
-                      />
-                      <line
-                        id="Line_38"
-                        data-name="Line 38"
-                        x1="8"
-                        transform="translate(42 44)"
-                        fill="none"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
-                      />
-                      <path
-                        id="Path_19940"
-                        data-name="Path 19940"
-                        d="M55,27V44H52"
-                        fill="none"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
-                      />
-                      <path
-                        id="Path_19941"
-                        data-name="Path 19941"
-                        d="M52,4h3V21"
-                        fill="none"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
-                      />
-                      <line
-                        id="Line_39"
-                        data-name="Line 39"
-                        x2="42"
-                        transform="translate(8 4)"
-                        fill="none"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
-                      />
-                      <line
-                        id="Line_40"
-                        data-name="Line 40"
-                        y2="2"
-                        transform="translate(55 23)"
-                        fill="none"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
-                      />
-                      <path
-                        id="Path_19942"
-                        data-name="Path 19942"
-                        d="M3,27V44H6"
-                        fill="none"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
-                      />
-                      <path
-                        id="Path_19943"
-                        data-name="Path 19943"
-                        d="M6,4H3V21"
-                        fill="none"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
-                      />
-                      <line
-                        id="Line_41"
-                        data-name="Line 41"
-                        y2="2"
-                        transform="translate(3 23)"
-                        fill="none"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
-                      />
-                      <path
-                        id="Path_19944"
-                        data-name="Path 19944"
-                        d="M25,45V60l4-3,4,3V45Z"
-                        fill="none"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                      />
-                      <path
-                        id="Path_19945"
-                        data-name="Path 19945"
-                        d="M25,45V60l4-3,4,3V45Z"
-                        fill="none"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
-                      />
-                      <path
-                        id="Path_19946"
-                        data-name="Path 19946"
-                        d="M29,29.456h0a3.335,3.335,0,0,1,6.041,2.5A3.335,3.335,0,0,1,37.544,38a3.335,3.335,0,0,1-2.5,6.042A3.335,3.335,0,0,1,29,46.544a3.335,3.335,0,0,1-6.042-2.5A3.335,3.335,0,0,1,20.456,38a3.335,3.335,0,0,1,2.5-6.041A3.335,3.335,0,0,1,29,29.456"
-                        fill="#fff"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                      />
-                      <path
-                        id="Path_19947"
-                        data-name="Path 19947"
-                        d="M29,29.456h0a3.335,3.335,0,0,1,6.041,2.5A3.335,3.335,0,0,1,37.544,38a3.335,3.335,0,0,1-2.5,6.042A3.335,3.335,0,0,1,29,46.544a3.335,3.335,0,0,1-6.042-2.5A3.335,3.335,0,0,1,20.456,38a3.335,3.335,0,0,1,2.5-6.041A3.335,3.335,0,0,1,29,29.456Z"
-                        fill="none"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
-                      />
-                      <line
-                        id="Line_42"
-                        data-name="Line 42"
-                        x2="1"
-                        y2="1"
-                        transform="translate(23 32)"
-                        fill="none"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
-                      />
-                      <line
-                        id="Line_43"
-                        data-name="Line 43"
-                        x1="1"
-                        y1="1"
-                        transform="translate(34 43)"
-                        fill="none"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
-                      />
-                      <line
-                        id="Line_44"
-                        data-name="Line 44"
-                        x1="1"
-                        y2="1"
-                        transform="translate(34 32)"
-                        fill="none"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
-                      />
-                      <line
-                        id="Line_45"
-                        data-name="Line 45"
-                        y1="1"
-                        x2="1"
-                        transform="translate(23 43)"
-                        fill="none"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
-                      />
-                      <line
-                        id="Line_46"
-                        data-name="Line 46"
-                        x1="2"
-                        transform="translate(36 38)"
-                        fill="none"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
-                      />
-                      <line
-                        id="Line_47"
-                        data-name="Line 47"
-                        x1="2"
-                        transform="translate(20 38)"
-                        fill="none"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
-                      />
-                      <line
-                        id="Line_48"
-                        data-name="Line 48"
-                        y2="2"
-                        transform="translate(29 29)"
-                        fill="none"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
-                      />
-                      <line
-                        id="Line_49"
-                        data-name="Line 49"
-                        y1="2"
-                        transform="translate(29 45)"
-                        fill="none"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
-                      />
-                      <path
-                        id="Path_19948"
-                        data-name="Path 19948"
-                        d="M33,38a4,4,0,1,1-4-4,4,4,0,0,1,4,4"
-                        fill="none"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                      />
-                      <circle
-                        id="Ellipse_16"
-                        data-name="Ellipse 16"
-                        cx="4"
-                        cy="4"
-                        r="4"
-                        transform="translate(25 34)"
-                        fill="none"
-                        stroke="#135f9b"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
-                      />
-                    </g>
-                  </svg>
-                </div>
-                <div class="content">
-                  <h5>+10K</h5>
-                  <p>Learning certificates</p>
-                </div>
-              </div>
-            </div>
+    <section class="s-p partners wow fadeInUp" data-wow-delay="0.2s">
+      <div class="container">
+        <h3 class="section-heading">Our partners</h3>
+        <div class="d-flex justify-content-center flex-wrap">
+          <div class="partner">
+            <img src="https://mfe-test.netlify.app/assets/images/partner/partner1.png" alt="partner" />
           </div>
-        </div>
-      </section>
-      <hr />
-
-      <section class="s-p partners wow fadeInUp" data-wow-delay="0.2s">
-        <div class="container">
-          <h3 class="section-heading">Our partners</h3>
-          <div class="d-flex justify-content-center flex-wrap">
-            <div class="partner">
-              <img
-                src="https://mfe-test.netlify.app/assets/images/partner/partner1.png"
-                alt="partner"
-              />
-            </div>
-            <div class="partner">
-              <img
-                src="https://mfe-test.netlify.app/assets/images/partner/partner2.png"
-                alt="partner"
-              />
-            </div>
-            <div class="partner">
-              <img
-                src="https://mfe-test.netlify.app/assets/images/partner/partner3.png"
-                alt="partner"
-              />
-            </div>
-            <div class="partner">
-              <img
-                src="https://mfe-test.netlify.app/assets/images/partner/partner4.png"
-                alt="partner"
-              />
-            </div>
-            <!-- <div class="partner">
+          <div class="partner">
+            <img src="https://mfe-test.netlify.app/assets/images/partner/partner2.png" alt="partner" />
+          </div>
+          <div class="partner">
+            <img src="https://mfe-test.netlify.app/assets/images/partner/partner3.png" alt="partner" />
+          </div>
+          <div class="partner">
+            <img src="https://mfe-test.netlify.app/assets/images/partner/partner4.png" alt="partner" />
+          </div>
+          <!-- <div class="partner">
           <img src="https://mfe-test.netlify.app/assets/images/partner/partner5.png" alt="partner">
         </div> -->
-            <div class="partner">
-              <img
-                src="https://mfe-test.netlify.app/assets/images/partner/partner6.png"
-                alt="partner"
-              />
-            </div>
-            <div class="partner">
-              <img
-                src="https://mfe-test.netlify.app/assets/images/partner/partner7.png"
-                alt="partner"
-              />
-            </div>
+          <div class="partner">
+            <img src="https://mfe-test.netlify.app/assets/images/partner/partner6.png" alt="partner" />
+          </div>
+          <div class="partner">
+            <img src="https://mfe-test.netlify.app/assets/images/partner/partner7.png" alt="partner" />
           </div>
         </div>
-      </section>
-
-      <div class="container">
-        <hr />
       </div>
+    </section>
 
-      <footer>
-        <div class="container">
-          <div
-            class="d-lg-flex flex-column text-center align-items-center justify-content-between"
-          >
-            <div class="social">
-              <ul class="d-flex justify-content-center">
-                <li>
-                  <a href="https://twitter.com/SchsOrg" target="_blank">
-                    <img
-                      src="https://mfe-test.netlify.app/assets/images/icons/twitter.png"
-                      alt="twitter"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.youtube.com/channel/UCugoRV5IcPfaGTFLfacfCcQ"
-                    target="_blank"
-                  >
-                    <img
-                      src="https://mfe-test.netlify.app/assets/images/icons/youtube.png"
-                      alt="youtube"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/schsorg/" target="_blank">
-                    <img
-                      src="https://mfe-test.netlify.app/assets/images/icons/instagram.png"
-                      alt="instagram"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="content text-center">
-              <h6>
-                &copy; 2022 Saudi Commission For Health Specialties. All Rights
-                Reserved.
-              </h6>
-              <div class="d-flex justify-content-center w-100">
-                <a
-                  href="https://scfhs.org.sa/en/privacy-and-terms-of-use"
-                  target="_blank"
-                >
-                  Privacy and Terms of Use
+    <div class="container">
+      <hr />
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="d-lg-flex flex-column text-center align-items-center justify-content-between">
+          <div class="social">
+            <ul class="d-flex justify-content-center">
+              <li>
+                <a href="https://twitter.com/SchsOrg" target="_blank">
+                  <img src="https://mfe-test.netlify.app/assets/images/icons/twitter.png" alt="twitter" />
                 </a>
-              </div>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UCugoRV5IcPfaGTFLfacfCcQ" target="_blank">
+                  <img src="https://mfe-test.netlify.app/assets/images/icons/youtube.png" alt="youtube" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/schsorg/" target="_blank">
+                  <img src="https://mfe-test.netlify.app/assets/images/icons/instagram.png" alt="instagram" />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="content text-center">
+            <h6>
+              &copy; 2022 Saudi Commission For Health Specialties. All Rights
+              Reserved.
+            </h6>
+            <div class="d-flex justify-content-center w-100">
+              <a href="https://scfhs.org.sa/en/privacy-and-terms-of-use" target="_blank">
+                Privacy and Terms of Use
+              </a>
             </div>
           </div>
         </div>
-      </footer>
-      <!--Script files
+      </div>
+    </footer>
+    <!--Script files
   ========================== -->
-      <!-- <script src="bootstrap.js"></script> -->
-      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-      <script src="script.js"></script>
-    </div>
-  </body>
+    <!-- <script src="bootstrap.js"></script> -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </div>
+</body>
+
 </html>
